@@ -1,10 +1,11 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
+import { BrowserRouter as Router, Route, Link, Redirect, Switch } from 'react-router-dom'
 import logo from './logo.svg';
 import './App.css';
 import Header from '../src/header/header.js'
 import Home from '../src/home/home'
 import Contact from '../src/contact/contact'
+import About from '../src/about_us/about'
 
 
 // const App = React.createElement('h1', {}, "Hello World");
@@ -13,8 +14,12 @@ function App() {
     return (
         <Router>
             <Header/>
+            <Switch>
             <Route path='/' exact component={Home}/>
             <Route path='/contact' component={Contact}/>
+            <Route path='/about-us' component={About}/>
+            <Redirect to='/'/>
+            </Switch>
         </Router>
     );
 }
