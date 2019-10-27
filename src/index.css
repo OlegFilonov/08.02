@@ -11,3 +11,35 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+/*My styles*/
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  background: #333;
+  color: white;
+}
+
+header > h1 {
+  float: left;
+  font: 1.5em Arial, sans-serif;
+}
+
+header > nav {
+  display: flex;
+  align-items: stretch;
+  height: 100%;
+}
+
+header > nav > a {
+  text-decoration: none;
+  padding: 10px 20px;
+  font: medium Arial, sans-serif;
+  color: white;
+}
+
+header > nav > a:hover {
+  background: rgba(255,255,255,.1);
+}
