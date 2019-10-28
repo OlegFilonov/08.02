@@ -6,8 +6,10 @@ export default class TodoList extends React.Component {
     constructor(props) {
         super(props);
 
+        const items = localStorage.getItem(this.props.id);
+
         this.state = {
-           items: props.items,
+           items: items ? JSON.parse(items) : this.props.items,
            currentInput: '',
         };
     }
@@ -31,6 +33,8 @@ export default class TodoList extends React.Component {
             items,
             currentInput: ''
         });
+
+        this.save();
     }
 
     deleteItem(item) {
@@ -39,6 +43,8 @@ export default class TodoList extends React.Component {
         this.setState({
             items
         });
+
+        this.save(items);
     }
 
     updateInput(input) {
@@ -47,5 +53,8 @@ export default class TodoList extends React.Component {
         });
     }
 
+    save(items) {
+        localStorage.setItem(this.props.id, JSON.stringify(items))
+    }
 
 }

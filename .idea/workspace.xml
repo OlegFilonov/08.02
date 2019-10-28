@@ -3,9 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="042627fb-cb6a-43b6-aaaf-d25fbcab5ea8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/todolist/listView/listView.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/todolist/listView/listView.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/todolist/listform/listform.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/todolist/listform/listform.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/todolist/todolist.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/todolist/todolist.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/about_us/about.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/about_us/about.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contact/contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contact/contact.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/header/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/home/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/todolist/listView/listView.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/todolist/listView/listView.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/todolist/listform/listform.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/todolist/listform/listform.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/todolist/todolist.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/todolist/todolist.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,6 +37,12 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\main\Desktop\Go_to_IT\Сбер\08_todolist\src" />
+      <recent name="C:\Users\main\Desktop\Go_to_IT\Сбер\08_todolist\src\components" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -72,7 +83,8 @@
       <updated>1572178869472</updated>
       <workItem from="1572178873689" duration="948000" />
       <workItem from="1572191931477" duration="8496000" />
-      <workItem from="1572284788035" duration="3199000" />
+      <workItem from="1572284788035" duration="5818000" />
+      <workItem from="1572290822709" duration="263000" />
     </task>
     <task id="LOCAL-00001" summary="first commit React_HW">
       <created>1572192347399</created>
@@ -102,7 +114,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572209285829</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="almost">
+      <created>1572288281775</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1572288281776</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,6 +145,7 @@
     <MESSAGE value="second commit" />
     <MESSAGE value="framework with Router" />
     <MESSAGE value="half-way" />
-    <option name="LAST_COMMIT_MESSAGE" value="half-way" />
+    <MESSAGE value="almost" />
+    <option name="LAST_COMMIT_MESSAGE" value="almost" />
   </component>
 </project>

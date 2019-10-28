@@ -13,7 +13,10 @@ export default function Home () {
             <h1>Hello world</h1>
             <h2>This is a home page</h2>
             <h1>To Do:</h1>
-            <TodoList items={items}/>
+            <TodoList items={items} id='home-todo'/>
+
+            <h1>To Do 2:</h1>
+            <TodoList items={items} id='home-todo-2'/>
         </main>
     )
 }
