@@ -13,7 +13,6 @@ export default function ListView(props) {
                         <button onClick={() => onDelete(item)}>x</button>
                     </li>)
             })}
-
         </ul>
     )
 }
