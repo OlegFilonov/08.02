@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="042627fb-cb6a-43b6-aaaf-d25fbcab5ea8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/about_us/about.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/todolist/listView/listView.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/todolist/listform/listform.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/todolist/todolist.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/header/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/header/header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/home/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/todolist/listView/listView.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/todolist/listView/listView.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/todolist/listform/listform.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/todolist/listform/listform.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/todolist/todolist.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/todolist/todolist.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -76,7 +71,8 @@
       <option name="presentableId" value="Default" />
       <updated>1572178869472</updated>
       <workItem from="1572178873689" duration="948000" />
-      <workItem from="1572191931477" duration="8442000" />
+      <workItem from="1572191931477" duration="8496000" />
+      <workItem from="1572284788035" duration="3199000" />
     </task>
     <task id="LOCAL-00001" summary="first commit React_HW">
       <created>1572192347399</created>
@@ -99,7 +95,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572205583210</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="half-way">
+      <created>1572209285829</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1572209285829</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -122,6 +125,7 @@
     <MESSAGE value="first commit React_HW" />
     <MESSAGE value="second commit" />
     <MESSAGE value="framework with Router" />
-    <option name="LAST_COMMIT_MESSAGE" value="framework with Router" />
+    <MESSAGE value="half-way" />
+    <option name="LAST_COMMIT_MESSAGE" value="half-way" />
   </component>
 </project>

@@ -6,24 +6,46 @@ export default class TodoList extends React.Component {
     constructor(props) {
         super(props);
 
-        this.setState({
-           items: props.items
-        });
+        this.state = {
+           items: props.items,
+           currentInput: '',
+        };
     }
 
     render() {
         return (
             <div>
-                <ListView items={this.state.items}/>
-                <ListForm onAddItem={(item) => this.addItem(item)}/>
+                <ListView items={this.state.items}
+                          onDelete={(item) => this.deleteItem(item)}
+                />
+                <ListForm currentInput={this.state.currentInput}
+                          onUpdateInput={(input) => this.updateInput(input)}
+                            onAddItem={() => this.addItem()}/>
             </div>
         )
     }
     addItem(item) {
-        let items = this.state.items.concat(item);
+        let items = this.state.items.concat(this.state.currentInput);
 
         this.setState({
-            items: items
+            items,
+            currentInput: ''
         });
     }
+
+    deleteItem(item) {
+        const items = this.state.items.filter(x => x !== item);
+
+        this.setState({
+            items
+        });
+    }
+
+    updateInput(input) {
+        this.setState({
+            currentInput: input
+        });
+    }
+
+
 }

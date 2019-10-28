@@ -2,13 +2,15 @@ import React from "react";
 
 export default function ListView(props) {
     const items = props.items;
+    const onDelete = props.onDelete;
+
     return (
         <ul>
             {items.map(item =>{
                 return (
-                    <li>
-                        <span className='item-text'>{item}</span>
-                        <button>x</button>
+                    <li key={item}>
+                        {item}
+                        <button onClick={() => onDelete(item)}>x</button>
                     </li>)
             })}
 
